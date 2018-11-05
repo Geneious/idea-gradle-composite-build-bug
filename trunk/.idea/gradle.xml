@@ -28,6 +28,7 @@
             <option value="$PROJECT_DIR$/plugins/plugin-wrapper" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
         <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
     </option>

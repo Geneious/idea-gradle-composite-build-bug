@@ -5,15 +5,16 @@
  * Learn how to create Gradle builds at https://guides.gradle.org/creating-new-gradle-builds/
  */
 
-plugins {
-    id 'java-library'
-}
+apply plugin: 'idea'
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'maven-publish'
 
 group = 'com.example'
 version = '0.1.0'
 
 dependencies {
-    api group: 'org.apache.commons', name: 'commons-math3', version: '3.0'
+    compile group: 'org.apache.commons', name: 'commons-math3', version: '3.0'
 }
 
 repositories {

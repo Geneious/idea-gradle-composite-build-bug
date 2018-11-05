@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="connector" external.linked.project.path="$MODULE_DIR$/../../../../connector" external.root.project.path="$MODULE_DIR$/../../../plugins/plugin-wrapper" external.system.id="GRADLE" external.system.module.group="com.example" external.system.module.version="0.1.0" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../connector/out/production/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../../connector/out/test/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../connector">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../connector/src/main/java" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../connector/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../connector/build" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../connector/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-math3:3.0" level="project" />
   </component>
 </module>
