@@ -1,5 +1,6 @@
 # idea-gradle-composite-build-bug
-Reproduction of the IDEA Gradle Composite Build bug
+
+Reproduction of the IDEA Gradle Composite Build bug https://youtrack.jetbrains.com/issue/IDEA-201766.
 
 To reproduce:
 1. Open IntelliJ IDEA
